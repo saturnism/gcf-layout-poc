@@ -1,0 +1,2 @@
+org.springframework.boot.loader.tools.LayoutFactory=\
+org.example.gcf.layout.GcfLayoutFactory
