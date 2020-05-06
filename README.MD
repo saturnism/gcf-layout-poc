@@ -1,6 +1,6 @@
 # Instructions
 ```
-cd gcf-layout-poc
+cd gcf-spring-boot-layout
 mvn clean install
 cd ../helloworld-function
 mvn clean install
