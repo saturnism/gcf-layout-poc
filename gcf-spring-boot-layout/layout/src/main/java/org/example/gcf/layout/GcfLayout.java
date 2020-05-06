@@ -22,5 +22,6 @@ public class GcfLayout extends Layouts.Jar implements CustomLoaderLayout {
   public void writeLoadedClasses(LoaderClassesWriter writer) throws IOException {
     writer.writeLoaderClasses();
     writer.writeLoaderClasses("META-INF/loader/loader.jar");
+    writer.writeLoaderClasses("META-INF/loader/gcf.jar");
   }
 }
